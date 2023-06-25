@@ -1,0 +1,152 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 767px;
+    margin: auto;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-family: lato;
+      
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 90px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(199, 196, 196);
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: #fbfbfb;
+
+    
+}
+
+.logo img{
+    max-width: 200px;
+
+}
+.item-menu1 {
+    padding: 20px;
+    font-size: 20px ;
+    
+}
+
+p {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    max-width: 400px;
+    
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 36px;
+    
+}
+h2 {
+    padding-top: 20px;
+    font-size: 28px;
+    
+}
+
+
+#inicio {
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+
+.circular {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    max-width: 350px;
+}
+
+.circular img {
+    width: 100%;
+    height: auto;
+}
+
+#descargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af599e;
+    border: solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    max-width: 400px;
+    width: 50%; 
+    color: #fbfbfb;
+    font-size: 20px;
+    margin-left: 25%;
+}
+
+#contacto {
+    min-height: 100vh;
+    padding-top: 120px;
+
+}
+
+#hablemos {
+    background-color: rgba(175,89,158, 0.3);
+}
+
+footer {
+    background-color: #af599e;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+
