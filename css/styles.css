@@ -68,15 +68,15 @@ header img{
  
 
 }
-.item-menu1 {
+.item-menu1, li.item-menu1 a.active  {
    padding: 20px;
-    font-size: 18px;
-    
+    font-size: 20px;
 }
+
 #descargar:hover,
 #item-menu2:hover,
 li.item-menu1:hover,
-li.item-menu1 a.active:hover {
+li.item-menu1 a.active {
     background: rgba(175,89,158, 0.5);
     transition: background-color 0.3s;
 }
@@ -179,13 +179,7 @@ footer {
     
 }
 
-@media (min-width: 768p) {
-font-size: 30px;
 
-p{
-    max-width: 80%;
-}
-}
 
 /* este sector es para desktop */
 
@@ -274,6 +268,7 @@ justify-content: space-around;
 }
 #item-menu2 {
     margin-left: 50px;
+    margin-right: 50px;
   }
 
   footer {
