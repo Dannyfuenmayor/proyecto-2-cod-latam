@@ -17,7 +17,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
@@ -63,11 +63,10 @@ header img{
     max-width: 150px;
     text-align: left;
     width: 25%;
-    height: auto;
     max-height: 80px;
- 
-
+    margin: 10px 10px;
 }
+
 .item-menu1, li.item-menu1 a.active  {
    padding: 20px;
     font-size: 20px;
@@ -82,18 +81,17 @@ li.item-menu1 a.active {
 }
 
 p {
-    
     margin-bottom: 20px;
-    padding: 20px;
+    margin-left: 10%;
     font-size: 16px;
-    max-width: 400px;
+    max-width: 80%;
     
     
 }
 
 h1 {
     padding-top: 20px;
-    font-size: 36px;
+    font-size: 34px;
     
 }
 h2 {
@@ -104,7 +102,7 @@ h2 {
 
 
 #inicio {
-    min-height: 85vh;
+    min-height: 100vh;
     padding-top: 110px;
     margin-bottom: 20px;
 
@@ -123,7 +121,7 @@ h2 {
     width: 80%;
     height: auto;
     max-width: 350px;
-    max-height: 40%;
+    max-height: 35%;
     
 }
 
@@ -156,6 +154,7 @@ h2 {
     min-height: 85vh;
     padding-top: 120px;
     max-height: 100vh;
+    padding-bottom: 20%;
     margin-bottom: 20px;
     max-height: 100vh;
 
@@ -163,6 +162,7 @@ h2 {
 
 #hablemos {
     background-color: rgba(175,89,158, 0.3);
+    padding: 20px 0px;
 
 }
 
@@ -174,16 +174,12 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: 100px;
-    
-    
+    margin-top: 100px; 
 }
-
-
 
 /* este sector es para desktop */
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 
 
     main {
@@ -191,12 +187,15 @@ footer {
         width: 1100px;
   
     }
+    header {
+        width: 100%;
+    }
 
     #menu1 {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        margin-left: 70%;
+        margin-left: 300px;
 
     }
   
@@ -239,10 +238,8 @@ footer {
   p{
     max-width: 600px;
     text-align: justify;
+    margin-left: 0px;
   }
-
-
-
     
   #contacto {
     min-height: 50vh;
@@ -256,7 +253,8 @@ footer {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   max-width: 50%;
+   max-width: 60%;
+   padding: 20px 40px;
    margin-left: 25%;
    margin-right: 25%;
 }
@@ -277,4 +275,9 @@ justify-content: space-around;
   }
 }
 
+@media (min-width: 1200px) {
+    #menu1 {
+        margin-left: 70%;
+    }
+}
 
